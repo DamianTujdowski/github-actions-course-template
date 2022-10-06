@@ -20,7 +20,8 @@ jobs:
           npm install
           npm run build
   test:    
-
+    runs-on: ubuntu-latest
+    
     strategy:
       matrix:
         node-version: [14.x]
