@@ -1,7 +1,7 @@
 name: GIPHY generator
 
-on:
-  issues:
+on: 
+  issues: 
     types: [opened, edited]
   pull_request:
     types: [opened, edited]
@@ -20,5 +20,4 @@ jobs:
           GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
         with:
           rating: 'g'
-          lang: 'en'          
-      
+          lang: 'en'
